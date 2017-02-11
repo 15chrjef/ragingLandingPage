@@ -6,17 +6,8 @@
     "react-scripts": "0.9.0"
   },
   "dependencies": {
-<<<<<<< f8b295e27fb340b9bb63c05d6eb2f32d335f983b
-    "axios": "^0.15.3",
-    "rc-calendar": "^7.6.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-dropdown": "^1.2.0",
-    "react-select": "^1.0.0-rc.3"
-=======
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
->>>>>>> create-react-app scaffold
   },
   "scripts": {
     "start": "react-scripts start",
