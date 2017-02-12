@@ -28,4 +28,7 @@ html {
   align-self: flex-end;
   margin-right: 4.5em;
 }
->>>>>>> basic layout with dummy containers
+
+.time_selector {
+  width: 15rem;
+}>>>>>>> basic layout with dummy containers
