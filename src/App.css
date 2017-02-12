@@ -2,3 +2,69 @@ html {
   font-size: 62.5%;
   padding: 1rem;
 }
+<<<<<<< 622c5190afe5e26feb8bc1297b3ef3991d58cfff
+=======
+
+.layout {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panels {
+  width: 80%;
+}
+
+.panel-title {
+  color: #0ABE51;
+}
+
+.spacer {
+  color: #0ABE51;
+  font-size: 3.6rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.dummy {
+  height: 50vh;
+  width: 80vw;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #F7F7F7;
+  margin: 10px;
+  color: #0ABE51;
+  
+}
+
+.editor_container {
+  height: 80vh;
+  width: 90vw;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.submit_button {
+  width: 15rem;
+  height: 5rem;
+  background-color: mediumspringgreen;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-right: 4.5em;
+}
+
+.time_selector {
+  width: 8rem;
+}
+
+.memo {
+  resize: none;
+  height: 30vh;
+}
+>>>>>>> cleanup
