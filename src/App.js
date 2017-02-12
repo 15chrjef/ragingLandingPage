@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Time from './components/Time';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Time/>
-      </div>
+      <h1 style={{ flexDirection: 'row', display: 'flex', color: '#0ABE51', justifyContent: 'center', alignItems: 'center'}}>
+        You Are Authenticated
+        <a href="https://web.flock.co/?">
+          <img 
+            style={{ height: '100px'}}
+            src="http://www.appsunveiled.com/wp-content/uploads/2015/04/Flock-Logo.png"
+          />
+        </a>
+      </h1>
     );
   }
 }
