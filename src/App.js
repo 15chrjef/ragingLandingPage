@@ -6,10 +6,12 @@ class App extends Component {
     return (
       <h1 style={{ flexDirection: 'row', display: 'flex', color: '#0ABE51', justifyContent: 'center', alignItems: 'center'}}>
         You Are Authenticated
-        <img 
-          style={{ height: '100px'}}
-          src="http://www.appsunveiled.com/wp-content/uploads/2015/04/Flock-Logo.png"
-        ></img>
+        <a href="https://web.flock.co/?">
+          <img 
+            style={{ height: '100px'}}
+            src="http://www.appsunveiled.com/wp-content/uploads/2015/04/Flock-Logo.png"
+          />
+        </a>
       </h1>
     );
   }
