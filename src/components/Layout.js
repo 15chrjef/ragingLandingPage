@@ -51,7 +51,7 @@ class App extends Component {
           </div>
           <div>
             <h2>Time</h2>
-            <input type="text"/>
+            <Time handleMenuSelect={this.handleMenuSelect.bind(this)} data={this.state.to}/>
           </div>
         </div>
         <div className="dummy">
@@ -62,8 +62,8 @@ class App extends Component {
             </div>
             <div>
               <h2>Time</h2>
-              <input type="text"/>
-            </div>
+               <Time handleMenuSelect={this.handleMenuSelect.bind(this)} data={this.state.from}/>
+            </div>                            
         </div>
         <div className="editor_container">
           <Editor
@@ -78,8 +78,7 @@ class App extends Component {
         <p className="App-intro">
           To get started
         </p>
-        <Time handleMenuSelect={this.handleMenuSelect.bind(this)} data={this.state.to}/>
-        <Time handleMenuSelect={this.handleMenuSelect.bind(this)} data={this.state.from}/>
+       
       </div>
     );
   }
